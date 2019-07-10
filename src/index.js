@@ -4,4 +4,4 @@ import firstNonRepeatingLetter from "./modules/codewars/firstNonRepeatingLetter"
 
 console.log(firstNonRepeatingLetter("AS"));
 
-reduceDir();
+console.log(reduceDir(["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH"]));

@@ -5,6 +5,7 @@ function reduceDir(arr) {
     EAST: "WEST",
     WEST: "EAST"
   };
+  //["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]
   let state = false;
   for (var i = 0; i < arr.length; i++) {
     if (objMap[arr[i]] === arr[i + 1]) {
